@@ -1,0 +1,49 @@
+body{
+    font-family: 'PT Serif' 'Fjalla One';
+    background-image: url(img/img.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 10vh;
+        
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+div{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 50%;
+    height: 50%;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p{
+    font-weight: 900;
+    color: red;
+}
+
+button{
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: cornflowerblue;
+}
